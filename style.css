@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,opsz,wght@0,9..144,900;1,9..144,700&display=swap');
+
+
+/* font-family: 'Fraunces', serif; */
+:root {
+    --softRed: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --darkDesaturatedCyan: hsl(167, 40%, 24%);
+    --darkBlue: hsl(198, 62%, 26%);
+    --darkModerateCyan: hsl(168, 34%, 41%);
+
+    /* Neutral */
+
+    --darkerDesaturatedBlue: hsl(212, 27%, 19%);
+    --darkerGrayishBlue: hsl(213, 9%, 39%);
+    --darkGrayishBlue: hsl(232, 10%, 55%);
+    --grayishBlue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+    --lightBlue: hsl(200, 100%, 72%);
+
+  }
+
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+/* header */
+
+header {
+    height: 100vh;
+    background: url('./images/desktop/image-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    padding: 2rem 2.5rem;
+    justify-content: space-between;
+}
+
+.nav-2 a{
+    padding: 0 1.5rem;
+    text-decoration: none;
+    color: var(--white);
+    text-transform: capitalize;
+    transition: 1s;
+}
+
+/* .nav-2 a:hover{
+    /* font-size: 19px;
+   
+} */
+
+.nav-2 :nth-child(4){
+    color: #000;
+    background: var(--white);
+    padding: .65rem 1.2rem;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+}
+
+.nav-2 :nth-child(4):hover {
+    background: var(--lightBlue);
+    color: var(--white);
+}
+
+header h2{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 8px;
+    color: var(--white);
+    padding-top: 4rem;
+}
+
+header p {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#arrow{
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 705px) {
+    
+    header {
+        /* height: 100vh; */
+        /* background: url('./images/desktop/image-header.jpg'); */
+        /* background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+    }
+
+}
