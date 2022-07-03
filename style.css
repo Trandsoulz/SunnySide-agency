@@ -76,14 +76,22 @@ nav {
     color: var(--white);
 }
 
+.nav-2 :nth-child(5) {
+    display: none;
+}
+
+.nav-bar {
+    display: none;
+}
+
 header h2{
     text-align: center;
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 45px;
     letter-spacing: 8px;
     color: var(--white);
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 
 header p {
@@ -115,13 +123,38 @@ header p {
 
 
 @media only screen and (max-width: 705px) {
-    
-    header {
-        /* height: 100vh; */
-        background: url('./images/mobile/image-header.jpg');
-        /* background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; */
+
+
+    header p {
+        text-align: center;
+        padding-top: 5rem;
     }
 
+    nav {
+        padding: 1.5rem;
+    }
+   
+    #arrow{
+        width: 50px;
+    }
+
+    .nav-2 a {
+        display: none;
+    }
+
+    .nav-2 :nth-child(5) {
+        display: block;
+    }
+
+    .nav-bar {
+        /* display: block; */
+        /* position: fixed; */
+    }
+
+    /* .nav-bar div {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        z-index: 10000000;
+    } */
 }
