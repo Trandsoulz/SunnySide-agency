@@ -91,12 +91,12 @@ header h2{
     font-size: 45px;
     letter-spacing: 8px;
     color: var(--white);
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 header p {
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 #arrow{
@@ -125,6 +125,11 @@ header p {
 @media only screen and (max-width: 705px) {
 
 
+
+    header h2 {
+        padding-top: 6.5rem;
+    }
+
     header p {
         text-align: center;
         padding-top: 5rem;
@@ -135,7 +140,7 @@ header p {
     }
    
     #arrow{
-        width: 50px;
+        width: 55px;
     }
 
     .nav-2 a {
@@ -147,14 +152,27 @@ header p {
     }
 
     .nav-bar {
-        /* display: block; */
-        /* position: fixed; */
+        display: block;
+        position: fixed;
+        top: 4rem;
+        left: .9rem;
+        bottom: 0;
+        width: 90%;
+        margin: 0 auto;
     }
 
-    /* .nav-bar div {
-        position: fixed;
+    .nav-bar div {
+        text-align: center;
         display: flex;
         flex-direction: column;
-        z-index: 10000000;
-    } */
+        background: var(--white);
+    }
+
+    .nav-bar a {
+        padding: 1rem 0;
+        text-decoration: none;
+        color: var(--darkGrayishBlue);
+        text-transform: capitalize;
+        transition: 1s;
+    }
 }
