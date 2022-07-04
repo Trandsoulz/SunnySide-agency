@@ -152,13 +152,41 @@ header p {
     }
 
     .nav-bar {
-        display: block;
+        display: none;
         position: fixed;
         top: 4rem;
         left: .9rem;
         bottom: 0;
         width: 90%;
         margin: 0 auto;
+        animation: opac 1s forwards;
+        transition: 1s;
+    }
+
+    @keyframes opac {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .block{
+        display: block;
+    }
+
+    .remove {
+        animation: opacity 1s forwards;
+    }
+
+    @keyframes opacity {
+        100% {
+            opacity: 0;
+        }
+        0% {
+            opacity: 1;
+        }
     }
 
     .nav-bar div {
@@ -174,5 +202,29 @@ header p {
         color: var(--darkGrayishBlue);
         text-transform: capitalize;
         transition: 1s;
+    }
+
+    .nav-bar div :nth-child(4){
+        color: #000;
+        background: var(--yellow);
+        padding: .65rem 1.2rem;
+        font-size: 16px;
+        font-weight: 300;
+        border-radius: 30px;
+        text-transform: uppercase;
+        font-family: 'Fraunces', serif;
+        width: 50%;
+        margin: .9rem auto;
+        margin-bottom: 1.2rem;
+    }
+
+    .nav-bar div :nth-child(4):hover {
+        background: var(--lightBlue);
+        color: var(--white);
+    }
+    
+    .nav-bar div :nth-child(4):focus {
+        background: var(--lightBlue);
+        color: var(--white);
     }
 }
