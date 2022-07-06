@@ -139,6 +139,21 @@ header p {
     border-bottom: 3px solid var(--yellow);
 }
 
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+#egg-2{
+    font-family: 'Fraunces', serif;
+    font-size: .9rem;
+    display: inline-block;
+    border-bottom: 3px solid var(--softRed);
+}
+
 
 
 .egg2 {
@@ -275,7 +290,7 @@ header p {
 
 
     .section-1 {
-        display: flex;
+        /* display: flex; */
         flex-direction: column-reverse;
         width: 100%;
     }
@@ -293,6 +308,9 @@ header p {
         width: 100%;
     }
 
-    
+    .section-2 {
+        flex-direction: column;
+        width: 100%;
+    }
 
 }
