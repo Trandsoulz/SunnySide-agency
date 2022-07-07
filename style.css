@@ -164,6 +164,54 @@ header p {
     width: 100%;
 }
 
+.section-3  {
+    display: flex;
+}
+
+.section-3 div {
+    width: 50%;
+    height: 90vh;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.section-3 h3 {
+    font-family: 'Fraunces', serif;
+    font-size: x-large;
+}
+
+
+.cherry {
+    background: url('./images/desktop/image-graphic-design.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--darkDesaturatedCyan);
+}
+
+.cherry div {
+    padding-top: 14rem;
+}
+
+.orange {
+    background: url('./images/desktop/image-photography.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--darkBlue);
+}
+
+.orange div {
+    padding-top: 14rem;
+}
+
+
+
 
 
 
@@ -313,4 +361,30 @@ header p {
         width: 100%;
     }
 
+
+
+    .section-3  {
+        flex-direction: column;
+    }
+
+    .section-3 p {
+        width: 90%;
+    }
+
+    .section-3 div {
+        width: 100%;
+        
+        height: 40vh;
+    }
+
+
+    .cherry div {
+        margin-bottom: 5rem;
+    }
+    
+   
+    
+    .orange div {
+        margin-bottom: 5rem;
+    }
 }
