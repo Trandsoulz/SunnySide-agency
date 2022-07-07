@@ -210,12 +210,6 @@ header p {
     padding-top: 14rem;
 }
 
-
-
-
-
-
-
 .section-4 {
     background: whitesmoke;
     text-align: center;
@@ -225,7 +219,6 @@ header p {
     /* padding-top: 2rem; */
     padding-bottom: 2rem;
 }
-
 
 .section-4 h1{
    text-align: center;
@@ -279,6 +272,54 @@ header p {
     color: var(--grayishBlue);
 }
 
+
+
+
+
+.section-5 {
+    display: flex;
+}
+
+.section-5 div {
+    display: flex;
+    width: 50%;
+}
+
+.img{
+    width: 25%;
+}
+
+.milkbottles {
+    background: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.oranges {
+    background: url(./images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.cone {
+    background: url(./images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.sugarcubes {
+    background: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
 
 
 
@@ -459,7 +500,17 @@ header p {
     }
 
 
-    /* .section-4 {
-        padding: 1rem .5rem 1rem .5rem;
-    } */
+
+    .section-5 {
+       flex-direction: column;
+    }
+
+    .section-5 div {
+        width: 100%;
+    }
+
+    .img {
+        height: 25vh;
+    }
+    
 }
