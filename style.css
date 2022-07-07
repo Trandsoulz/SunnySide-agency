@@ -216,6 +216,75 @@ header p {
 
 
 
+.section-4 {
+    background: whitesmoke;
+    text-align: center;
+}
+
+.section-4 div{
+    /* padding-top: 2rem; */
+    padding-bottom: 2rem;
+}
+
+
+.section-4 h1{
+   text-align: center;
+   font-family: 'Fraunces', serif;
+   font-size: x-large;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   color: var(--darkerGrayishBlue);
+}
+
+
+.clients {
+    
+    padding: 2rem;
+    /* padding-top: 0; */
+}
+
+.testimonial-main-div {
+    
+    padding: 2rem;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.testimonial img {
+    border-radius: 50%;
+}
+
+.testimonial {
+    padding: 1.5rem;
+    line-height: 1.6;
+}
+
+
+
+
+/* words styling */
+
+.testimonial h2 {
+    font-family: 'Fraunces', serif;
+    color: var(--darkBlue);
+    font-size: large;
+}
+
+.words {
+    color: var(--darkerGrayishBlue);
+}
+
+.positions {
+    color: var(--grayishBlue);
+}
+
+
+
+
+
+
+
 
 
 
@@ -376,4 +445,21 @@ header p {
         
         height: 60vh;
     }
+
+    /* .section-4 div{
+        padding: 0;
+    } */
+
+    .testimonial-main-div {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        padding: 0;
+    }
+
+
+    /* .section-4 {
+        padding: 1rem .5rem 1rem .5rem;
+    } */
 }
