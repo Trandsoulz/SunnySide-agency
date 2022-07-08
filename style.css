@@ -382,12 +382,12 @@ footer img:hover {
 
 
     header h2 {
-        padding-top: 2.5rem;
+        padding-top: 8.5rem;
     }
 
     header p {
         text-align: center;
-        padding-top: 2rem;
+        padding-top: 6.5rem;
     }
 
     nav {
@@ -550,4 +550,35 @@ footer img:hover {
         height: 25vh;
     }
     
+}
+
+
+@media only screen and (max-width: 550px) {
+
+
+
+    header h2 {
+        padding-top: 7.5rem;
+    }
+
+    header p {
+        text-align: center;
+        padding-top: 4rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 350px) {
+
+
+
+    header h2 {
+        padding-top: 3.5rem;
+    }
+
+    header p {
+        text-align: center;
+        padding-top: 2rem;
+    }
 }
